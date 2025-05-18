@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form Using Table in HTML</title>
+
+</head>
+
+<body>
+    <h1>
+        <u>Student Registration Form Using Table in HTML</u>
+    </h1>
+    <div>
+        <table cellspacing="30px">
+            <tr>
+                <td><b>First Name</b></td>
+                <td style="padding-left: 80px;"><input type="text" maxlength="50" placeholder="Gahendra"> <b
+                        style="margin: 10px;">(Max 50
+                        characters allowed)</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Last Name</b></td>
+                <td style="padding-left: 80px;"><input type="text" maxlength="50" placeholder="Yadav"> <b
+                        style="margin: 10px;">(Max 50
+                        characters allowed)</b>
+                </td>
+            </tr>
+            <tr>
+
+                <td><b>Email ID</b></td>
+                <td style="padding-left: 80px;"><input type="email" name="emailID" id=""
+                        placeholder="ygahendra@gmail.com">
+                </td>
+
+            </tr>
+            <tr>
+
+                <td><b>Mobile Number</b></td>
+                <td style="padding-left: 80px;"><input type="number" name="phoneNumber" id=""
+                        placeholder="0300-123456789" required></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        Gender
+                    </b>
+                </td>
+                <td style="padding-left: 80px;">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Date Of Birth (DOB)</b></td>
+                <td style="padding-left: 80px;"> <input type="date"></td>
+            </tr>
+
+            <tr>
+                <td><b>Address</b></td>
+                <td style="padding-left: 80px;"><textarea name="address" id="" cols="50"
+                        rows="5">Write your address here</textarea></td>
+            </tr>
+
+            </tr>
+
+            <tr>
+                <td><b>City</b></td>
+                <td style="padding-left: 80px;">
+                    <select style="width: 90px; height: 28px;" name="city" id="">
+                        <option value="Karachi">Karachi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Quetta">Quetta</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Rawalpindi">Rawalpindi</option>
+                    </select>
+                </td>
+
+
+            <tr>
+                <td><b>Pincode</b></td>
+                <td style="padding-left: 80px;"><input type="text" name="pipcode" maxlength="6"><b
+                        style="margin-left: 20px;">(Max 6 numbers allowed)</b></textarea></td>
+            </tr>
+            <tr>
+                <td><b>State</b></td>
+                <td style="padding-left: 80px;">
+                    <select style="width: 90px; height: 30px;" name="state" id="">
+                        <option value="Karachi">Select</option>
+                        <option value="Sindh">Sindh</option>
+                        <option value="Pubjab">Punjab</option>
+                        <option value="KPK">KPK</option>
+                        <option value="Balochistan">Balochistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Country</b></td>
+                <td style="padding-left: 80px;">
+                    <select style="width: 90px; height: 30px;" name="country" id="">
+                        <option value="Pakistan">Select</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="United States">United States</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="25px">
+            <tr>
+                <td><b>Hobbies</b></td>
+
+                <td style="padding-left: 110px;"><input type="checkbox" name="Drawing">Drawing</td>
+                <td><input type="checkbox" name="Singing">Singing</td>
+                <td><input type="checkbox" name="Dancing">Dancing</td>
+                <td><input type="checkbox" name="Sketching">Sketching</td>
+                <td><input type="checkbox" name="Others">Others <input type="text" maxlength="50"
+                        placeholder="playing Football.."><b style="margin-left: 20px;">(Max 50 numbers allowed)</b></td>
+            </tr>
+
+            <tr>
+                <td><b>Qualification</b></td>
+
+                <td style="padding-left: 110px;"><input type="checkbox" name="Matric">Matric</td>
+                <td><input type="checkbox" name="Intermediate">Intermediate</td>
+                <td><input type="checkbox" name="Bachelors">Bachelors</td>
+
+            </tr>
+
+
+
+        </table>
+        <table cellspacing="25px">
+            <tr>
+                <td><b>Courses Applied for</b></td>
+
+                <td style="padding-left: 60px;"><input type="checkbox" name="Graphic Design">Graphic Design</td>
+                <td><input type="checkbox" name="Video Editing">Video Editing</td>
+                <td><input type="checkbox" name="Java Programming">Java Programming</td>
+
+            </tr>
+        </table>
+        <!-- button -->
+        <table cellspacing="10px" style="margin-left: 400px;">
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
